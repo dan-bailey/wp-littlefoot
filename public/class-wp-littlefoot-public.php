@@ -74,6 +74,7 @@ class wp_littlefoot_Public {
 		 */
 
 		wp_enqueue_style( $this->wp_littlefoot, plugin_dir_url( __FILE__ ) . 'css/wp-littlefoot-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( 'littlefoot-css', plugin_dir_url( __FILE__ ) . 'css/bigfoot-default.css', array(), '1.0.0', 'all' );
 
 	}
 
@@ -97,6 +98,7 @@ class wp_littlefoot_Public {
 		 */
 
 		wp_enqueue_script( $this->wp_littlefoot, plugin_dir_url( __FILE__ ) . 'js/wp-littlefoot-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( 'littlefoot-js', plugin_dir_url( __FILE__ ) . 'js/bigfoot.min.js', array('jquery'), '1.0.0', false );
 
 	}
 
