@@ -14,11 +14,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       WP Littlefoot
- * Plugin URI:        https://www.danbailey.dev/wp-littlefoot
+ * Plugin URI:        https://github.com/dan-bailey/wp-littlefoot
  * Description:       This is an implementation of the BigfootJS footnotes functionality.
  * Version:           1.0.0
  * Author:            Dan Bailey
- * Author URI:        https://www.danbailey.dev
+ * Author URI:        https://www.danbailey.net
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wp-littlefoot
