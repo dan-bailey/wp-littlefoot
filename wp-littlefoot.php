@@ -65,6 +65,15 @@ register_deactivation_hook( __FILE__, 'deactivate_wp_littlefoot' );
 require plugin_dir_path( __FILE__ ) . 'includes/class-wp-littlefoot.php';
 
 /**
+ * Enqueue the necessary bits for showing the little popup blips in the code.
+ */
+
+ function littlefoot_enqueue_scripts() {
+	wp_enqueue_script('littlefootjs', plugin_dir_url( __FILE__ ) . 'public/js/wp-littlefoot-public.js');
+	wp_enqueue_sceript('fontawesome', 'https://kit.fontawesome.com/e5141475d1.js');
+ }
+
+/**
  * Begins execution of the plugin.
  *
  * Since everything within the plugin is registered via hooks,
@@ -80,3 +89,4 @@ function run_wp_littlefoot() {
 
 }
 run_wp_littlefoot();
+littlefoot_enqueue_scripts();
