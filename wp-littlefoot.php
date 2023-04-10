@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Littlefoot
  * Plugin URI:        https://github.com/dan-bailey/wp-littlefoot
- * Description:       This is an implementation of the BigfootJS footnotes functionality.
+ * Description:       This is an implementation of the LittlefootJS (Bigfoot but without JQuery) footnotes functionality.
  * Version:           1.0.0
  * Author:            Dan Bailey
  * Author URI:        https://www.danbailey.net
